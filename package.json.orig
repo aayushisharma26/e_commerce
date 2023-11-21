@@ -1,0 +1,25 @@
+{
+  "name": "e_commerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+<<<<<<< HEAD
+    "bootstrap": "^5.3.2",
+=======
+<<<<<<< HEAD
+    "bootstrap": "^5.3.2",
+    "next": "14.0.2",
+=======
+>>>>>>> 7aad49e0a62497f71e27c266530410cb006f8247
+    "next": "14.0.3",
+>>>>>>> a595abc3ebbb787ef5590810caadd1f95ac14b92
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

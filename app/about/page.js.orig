@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client"
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -16,3 +17,30 @@ const About =()=>{
 }
 export default About;
 
+
+
+// import Link from "next/link";
+
+// const About = () => {
+//   return (
+//     <div>
+//       <h1>About Page</h1>
+
+//       {/* Use Link component for navigation */}
+//       <Link href="/">Go to home page</Link>
+//     </div>
+//   );
+// };
+
+// export default About;
+=======
+import React from 'react'
+
+function About() {
+  return (
+    <div>About</div>
+  )
+}
+
+export default About
+>>>>>>> 7aad49e0a62497f71e27c266530410cb006f8247
