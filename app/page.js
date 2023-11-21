@@ -8,7 +8,7 @@ export default function Home(){
         <div>
           <Link href="/login"> GO to login page</Link>
           <br />
-          <Link href="/about"> GO to about page</Link>
+          <Link href="/home"> GO to home page</Link>
         </div>    
     </main>
   )
