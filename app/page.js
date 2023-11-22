@@ -1,11 +1,11 @@
-import Link from 'next/link';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import React from 'react'
-
+import Navbar from './navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function page() {
   return (
-    <h1>hello</h1>
+    <div>
+      <Navbar/>
+    </div>
   )
 }
 
