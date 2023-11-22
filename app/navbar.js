@@ -6,7 +6,7 @@ function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-secondary" style={{ height: '80px', width: '100%' }}>
         <div style={{ marginRight: '10px' }}>
-          <Link href="/">Home</Link>
+          <Link href="/home">Home</Link>
         </div>
         
         <div style={{ marginRight: '10px' }}>
