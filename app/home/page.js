@@ -1,5 +1,5 @@
 import Link from "next/link";
-const Student =()=>{
+const HOME =()=>{
     return(
         <div>
             <h1>Home page for Student</h1>
@@ -7,4 +7,4 @@ const Student =()=>{
         </div>
     )
 }
-export default Student
+export default Home;
