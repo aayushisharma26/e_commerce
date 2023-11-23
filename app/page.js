@@ -1,13 +1,14 @@
-import Link from 'next/link'
-import style from './page.module.css'
+import React from 'react'
 import Navbar from './navbar'
+import Home from './home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-export default function Home(){
-  return(
-    <>
+function page() {
+  return (
+    <div>
       <Navbar/>
-    </>
+      <Home/>
+    </div>
   )
 }
+
+export default page
