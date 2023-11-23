@@ -1,7 +1,7 @@
 "use client"
 import axios from "axios";
 import { useEffect, useState } from "react";
-let Page=()=>{
+let Home=()=>{
   const [data,setData]=useState([]);
   useEffect(()=>{
     axios.get("https://fakestoreapi.com/products")
@@ -29,4 +29,4 @@ let Page=()=>{
     </>
   );
 }
-export default Page;
+export default Home;
