@@ -7,4 +7,4 @@ const Student =()=>{
         </div>
     )
 }
-export default Student;
+export default Student
